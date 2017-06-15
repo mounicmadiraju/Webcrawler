@@ -1,0 +1,8 @@
+F:\Private\Sample\WebCrawler2\bin\Debug\WebCrawler.exe.config
+F:\Private\Sample\WebCrawler2\bin\Debug\WebCrawler.exe
+F:\Private\Sample\WebCrawler2\bin\Debug\WebCrawler.pdb
+F:\Private\Sample\WebCrawler2\obj\Debug\WebCrawler.WinForm.resources
+F:\Private\Sample\WebCrawler2\obj\Debug\WebCrawler.csproj.GenerateResource.Cache
+F:\Private\Sample\WebCrawler2\obj\Debug\WebCrawler.exe
+F:\Private\Sample\WebCrawler2\obj\Debug\WebCrawler.pdb
+F:\Private\Sample\WebCrawler2\bin\Debug\ContentExtractor.exe.config
