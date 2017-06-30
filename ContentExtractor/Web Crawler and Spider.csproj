@@ -1,7 +1,9 @@
 // Author mounicraju@gmail.com //
 
 <?xml version="1.0" encoding="utf-8"?>
+
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  
   <PropertyGroup>
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.50727</ProductVersion>
@@ -46,6 +48,7 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
+  
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
@@ -95,23 +98,29 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    
     <Reference Include="System">
       <Name>System</Name>
     </Reference>
+    
     <Reference Include="System.configuration" />
     <Reference Include="System.Data">
       <Name>System.Data</Name>
     </Reference>
+    
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
     </Reference>
+    
     <Reference Include="System.Windows.Forms">
       <Name>System.Windows.Forms</Name>
     </Reference>
+    
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
   </ItemGroup>
+  
   <ItemGroup>
     <Content Include="App.ico" />
     <Compile Include="AssemblyInfo.cs">
@@ -121,16 +130,19 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
+      
     </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="WinForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    
     <EmbeddedResource Include="WinForm.resx">
       <DependentUpon>WinForm.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
+  
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
@@ -138,6 +150,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
@@ -155,6 +168,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
@@ -163,3 +177,4 @@
     </PostBuildEvent>
   </PropertyGroup>
 </Project>
+
