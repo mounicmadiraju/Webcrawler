@@ -32,9 +32,7 @@ namespace WebCrawler
 
 		public WinForm()
 		{
-			//
 			
-			//
 			InitializeComponent();
 
       Application.EnableVisualStyles();
