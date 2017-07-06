@@ -10,7 +10,6 @@ using System.Data;
 namespace WebCrawler
 {
 	/// <summary>
-	/// Summary description for WinForm.
 	/// </summary>
 	public class WinForm : System.Windows.Forms.Form
 	{
