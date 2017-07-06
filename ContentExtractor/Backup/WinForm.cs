@@ -9,8 +9,7 @@ using System.Data;
 
 namespace WebCrawler
 {
-	/// <summary>
-	/// </summary>
+	
 	public class WinForm : System.Windows.Forms.Form
 	{
 		/// <summary>
