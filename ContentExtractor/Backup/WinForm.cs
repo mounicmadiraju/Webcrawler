@@ -13,7 +13,7 @@ namespace WebCrawler
 	public class WinForm : System.Windows.Forms.Form
 	{
 		/// <summary>
-		/// Required designer variable.
+		
 		/// </summary>
 		private System.ComponentModel.IContainer components;
 		private System.Windows.Forms.Timer timer;
