@@ -12,9 +12,6 @@ namespace WebCrawler
 	
 	public class WinForm : System.Windows.Forms.Form
 	{
-		/// <summary>
-		
-		/// </summary>
 		private System.ComponentModel.IContainer components;
 		private System.Windows.Forms.Timer timer;
 		private System.Windows.Forms.Panel panel2;
