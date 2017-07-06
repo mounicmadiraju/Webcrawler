@@ -33,7 +33,7 @@ namespace WebCrawler
 		public WinForm()
 		{
 			//
-			// Required for Windows Form Designer support
+			
 			//
 			InitializeComponent();
 
