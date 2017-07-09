@@ -30,7 +30,7 @@ namespace ContentExtractor
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox URLListBox;
         private System.Windows.Forms.Splitter splitter1;
-        //private System.Windows.Forms.CheckBox diffDomainCheckBox;
+       
         private System.Windows.Forms.TrackBar updateSpeedTrackBar;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ContextMenu contextMenu1;
